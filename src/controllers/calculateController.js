@@ -1,7 +1,7 @@
 
 const calculateInvestment = async (req, res) => {
   console.log("req:", req.body);
-  let { totalAmount: P, interestAmount: i, maturityValue: n } = req.body;
+  let { yearlyInsvet: P, interest: i, year: n } = req.body;
 
   i = i / 100;
 
