@@ -10,3 +10,4 @@ router.post("/getProfile", getUserProfile);
 router.post("/calculate", calculateInvestment);
 
 module.exports = router;
+  

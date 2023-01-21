@@ -1,4 +1,3 @@
-const Investment = require("../models/invesmentModel");
 
 const calculateInvestment = async (req, res) => {
   console.log("req:", req.body);
